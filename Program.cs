@@ -6,8 +6,8 @@ namespace dotnetcore
     {
         static void Main(string[] args)
         {
-            var maVarJbo = "test en debug";
-            Console.WriteLine("Hello World!");
+            var maVarJbo = "test 2 en debug";
+            Console.WriteLine("Hello hh World!");
         }
     }
 }
