@@ -9,6 +9,8 @@ tasks:
       dotnet build
   - name: Run
     command: dotnet run
+  - name: Debug
+    command: dotnet build /workspace/template-dotnet-core-cli-csharp/dotnetcore.csproj /property:GenerateFullPaths=true /consoleloggerparameters:NoSummary 
 
 vscode:
   extensions:
